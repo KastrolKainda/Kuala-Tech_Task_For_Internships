@@ -1,0 +1,81 @@
+html{
+  background: linear-gradient(#ffffffeb, #847e7e87, #fff) no-repeat;
+}
+      /*the rows in the container*/
+.container {
+  margin: 50px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+    /*columns inside the container*/
+.column {
+  margin: auto;
+  color: #fff;
+  width: 80%;
+  border-radius: 10px;
+  padding: 0px;
+  background: #000;
+  box-shadow: 0px 6px 10px #0c2b5b; 
+}
+          /*ROW 1 - text on the image/icons*/
+.text-1{
+  top: 60px;
+  position: absolute;
+  background: transparent;
+  padding: 20px;
+}
+      /*ROW 2 - text on the image/icons*/
+.text-2{
+  top: 390px;
+  position: absolute;
+  background: transparent;
+  padding: 20px;
+}
+    /* background image or icons*/
+img{
+  height: 220px;
+  width: 100%;
+  opacity: .19;
+  display: block;
+  object-fit: cover;
+}
+    /*the header, paragraphy and i tag inside - coloumns*/
+h2{
+  color: orange;
+  font-size: 26px;
+}
+i{
+  color: orange;
+}
+p,i{
+  font-size: 20px;
+  font-style: normal;
+}
+    /*the links inside the buttons - for Login*/
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+button{
+  background: orange;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  margin: 17px;
+}
+a:hover{
+  color: #fff;
+}
+
+          /*THE FOOTER PART*/
+.down{
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 60px;
+}

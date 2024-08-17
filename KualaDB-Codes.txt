@@ -1,0 +1,13 @@
+CREATE DATABASE KualaDB;
+USE KualaDB;
+
+CREATE TABLE UserLogin(
+	ID INT(5) NOT NULL AUTO_INCREMENT,
+	EmailID VARCHAR(20) NOT NULL,
+	Pass_word VARCHAR(20) NOT NULL,
+	PRIMARY KEY(ID)
+);
+
+INSERT INTO userlogin VALUES(100, "user100@gmail.com", "user100");
+INSERT INTO userlogin VALUES("", "user101@gmail.com", "user101");
+INSERT INTO userlogin VALUES("", "user101@gmail.com", "user102");

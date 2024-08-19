@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>userDashboard</title>
+    <title>user-Dashboard</title>
     <style>
                 /* The internal style of the CODE */
         h1{
             text-align: center;
-            margin: 300px;
+            margin: 280px;
             font-size: 50px;
             font-style: italic;
             font-weight: bold;

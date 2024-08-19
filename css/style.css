@@ -36,7 +36,7 @@ html{
 img{
   height: 220px;
   width: 100%;
-  opacity: .19;
+  opacity: .25;
   display: block;
   object-fit: cover;
 }
